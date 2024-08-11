@@ -1,0 +1,36 @@
+$main__color: hsl(211, 68%, 94%);
+$secondary__color: hsl(205, 33%, 90%);
+$background__color: hsl(210, 60%, 98%);
+$white: hsl(0, 0%, 100%);
+$dark__blue: hsl(224, 21%, 14%);
+$grayish__blue: hsl(219, 12%, 42%);
+$red: hsl(1, 90%, 64%);
+
+@mixin alignment__notes(){
+    strong, b, small{
+        margin: 0;
+        padding: 0;
+    } 
+    p{
+            margin-left: 5px;
+        }
+}
+
+.notifications{
+    a, b{
+        color:$grayish__blue;
+        font-weight: 800;
+    }
+}
+
+.text__set, .text__set1, .text__set2, .text__set3{
+    @include alignment__notes()
+}
+
+.text__set4 {
+    img{
+        width: 10%;
+        height: 50%;
+        padding-left: 10em;
+}
+}
