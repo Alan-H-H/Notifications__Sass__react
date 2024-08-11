@@ -19,7 +19,6 @@
 
 body {
   background-color: hsl(211, 68%, 94%);
-  font-family: "Plus Jakarta Sans";
 }
 
 button {
@@ -47,6 +46,7 @@ small {
   margin: 7em auto;
   width: 950px;
   border-radius: 1em;
+  "Plus Jakarta Sans", sans-serif;
 }
 
 .header, .notifications {
