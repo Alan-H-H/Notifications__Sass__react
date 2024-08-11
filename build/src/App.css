@@ -46,7 +46,7 @@ small {
   margin: 7em auto;
   width: 950px;
   border-radius: 1em;
-  "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .header, .notifications {
